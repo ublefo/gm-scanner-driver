@@ -1,5 +1,8 @@
 # UART Barcode Scanner Driver
 
+> [!NOTE]
+> This is still a work in progress, I'm trying to refactor the driver to make supporting additional modules easier.
+
 A simple driver module to make interfacing with serial barcode scanner modules easier. The driver takes care of all the setup work and contains sane defaults. Right now support is limited to modules from Grow, and a lot of the registers aren't exposed. Support for other vendors' modules may be implemented at a future date. This driver will be published to PyPI at some point, I just haven't had the time to do it yet.
 
 ## Tested modules
